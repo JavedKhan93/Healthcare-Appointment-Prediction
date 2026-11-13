@@ -1,0 +1,9 @@
+{
+  "name": "morrow-healthcare-prediction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Healthcare Appointment No-Show Prediction Platform",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  }
+}

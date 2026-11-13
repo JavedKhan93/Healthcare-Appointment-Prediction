@@ -1,4 +1,4 @@
-# MORROW — Healthcare Appointment No-Show Prediction System
+# Healthcare Appointment No-Show Prediction System
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.0-lightgrey.svg)](https://flask.palletsprojects.com/)

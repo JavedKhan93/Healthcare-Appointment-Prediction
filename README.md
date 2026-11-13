@@ -8,7 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4-purple.svg)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**MORROW** is a production-grade clinical decision-support and hospital operations intelligence platform. It predicts the calibrated likelihood (`0.00` to `1.00`) of scheduled patient appointment non-attendance ("no-shows") at the time of booking. This enables administrative healthcare staff to review high-risk appointments, schedule courteous follow-ups, and optimize clinical schedule density without disrupting care delivery.
+**Healthcare Appointment No-Show Prediction System** is a production-grade clinical decision-support and hospital operations intelligence platform. It predicts the calibrated likelihood (`0.00` to `1.00`) of scheduled patient appointment non-attendance ("no-shows") at the time of booking. This enables administrative healthcare staff to review high-risk appointments, schedule courteous follow-ups, and optimize clinical schedule density without disrupting care delivery.
 
 ---
 

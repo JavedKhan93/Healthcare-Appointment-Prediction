@@ -1,0 +1,27 @@
+{
+  "model_name": "LogisticRegression",
+  "model_version": "1.0.0",
+  "selected_threshold": 0.15,
+  "calibration_method": "sigmoid (Platt scaling)",
+  "training_timestamp": "2026-11-11T23:37:10.247892",
+  "random_seed": 42,
+  "feature_schema": [
+    "booking_lead_days",
+    "appointment_weekday",
+    "appointment_hour",
+    "booking_hour",
+    "booking_channel",
+    "prior_appointments_count",
+    "prior_no_show_count",
+    "prior_cancellations_count",
+    "prior_no_show_rate",
+    "days_since_last_appointment"
+  ],
+  "validation_records": 1492,
+  "test_records": 1493,
+  "cost_assumptions": {
+    "false_positive_cost": 5.0,
+    "false_negative_cost": 50.0
+  },
+  "optimal_validation_cost": 8195.0
+}

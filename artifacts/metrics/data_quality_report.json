@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-11-11T23:36:45.543033",
+  "initial_record_count": 10005,
+  "column_validation": {
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "duplicate_feature_rows_removed": 49,
+  "missing_values": {
+    "booking_lead_days": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "booking_channel": {
+      "count": 20,
+      "percentage": 0.2
+    },
+    "prior_appointments_count": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "prior_no_show_rate": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "days_since_last_appointment": {
+      "count": 7,
+      "percentage": 0.07
+    }
+  },
+  "impossible_timestamps": 5,
+  "negative_counts": 10,
+  "invalid_historical_relationships": 0,
+  "removed_impossible_timestamps": 5,
+  "negative_counts_set_to_nan": 10,
+  "invalid_target_removed": 0,
+  "duplicate_appointment_ids_removed": 1,
+  "duplicate_count": 50,
+  "outlier_observations": {
+    "booking_lead_days_gt_120": 2,
+    "prior_appointments_gt_20": 0,
+    "days_since_last_gt_365": 328
+  },
+  "final_missing_values": {
+    "booking_lead_days": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "booking_channel": {
+      "count": 20,
+      "percentage": 0.2
+    },
+    "prior_appointments_count": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "prior_no_show_count": {
+      "count": 5,
+      "percentage": 0.05
+    },
+    "prior_cancellations_count": {
+      "count": 5,
+      "percentage": 0.05
+    },
+    "prior_no_show_rate": {
+      "count": 7,
+      "percentage": 0.07
+    },
+    "days_since_last_appointment": {
+      "count": 7,
+      "percentage": 0.07
+    }
+  },
+  "final_record_count": 9950,
+  "records_removed": 55,
+  "final_data_types": {
+    "appointment_id": "object",
+    "booking_created_at": "datetime64[ns]",
+    "appointment_datetime": "datetime64[ns]",
+    "booking_lead_days": "float64",
+    "appointment_weekday": "int64",
+    "appointment_hour": "int64",
+    "booking_hour": "int64",
+    "booking_channel": "object",
+    "prior_appointments_count": "float64",
+    "prior_no_show_count": "float64",
+    "prior_cancellations_count": "float64",
+    "prior_no_show_rate": "float64",
+    "days_since_last_appointment": "float64",
+    "no_show": "int64"
+  },
+  "target_distribution": {
+    "attended": 8250,
+    "no_show": 1700,
+    "no_show_rate": 0.1709
+  }
+}
